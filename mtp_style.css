@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    background: #013243 ;
+    font-family: Sen;
+    /*overflow: hidden;*/
+}
+
+header{
+    margin: 1% 0  0 10%;
+}
+
+.description {
+    margin-left:10%;
+    margin-top: 4%;
+}
+
+.description h1{
+    font-weight: 800;
+    font-size: 16.9rem;
+    color: #32f5c8 ;
+    line-height:15rem ;
+    z-index: -1;
+}
+
+.description p{
+    font-size: 2.5rem;
+    /*color: #a9bdc6 ;*/
+    width: 600px;
+    margin: 4% 0 2% 0;
+    font-family: Inter ;
+    font-weight: 600;
+    color: #a9bdc6db ;
+
+}
+
+button{
+   /* width:290px;
+    height:60px;*/
+    padding: 2%;
+    background-color: #32f5c8;
+    color: #013343f2 ;
+    border-radius: 5px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: Inter ;
+    border: 0px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.follow img{
+    display: flex;
+
+}
+
+.follow p{
+    display: flex;
+    margin-left:10px ;
+    margin-top: 2%;
+}
+
+.av1{
+    position: relative;
+    bottom:700px;
+    left:55px;
+    z-index: -1;
+
+}
+
+.av2{
+    position: relative;
+    bottom: 855px;
+    left: 1010px;
+    z-index: -1;
+    width: 130px;
+    /*width: 118px;*/
+}
+
+.av3{
+    position: relative;
+    bottom: 1020px;
+    left:1190px;
+    width: 190px;
+    /*width: 160px;*/
+}
+
+.av4{
+    position: relative;
+    bottom: 886px;
+    left:795px;
+    /*width: 141px;*/
+    z-index: 2;
+}
+.description span.zindx{
+    z-index: 3;
+    position: relative;
+}
+
+.av5{
+    position: relative;
+    bottom: 1050px;
+    left: 1250px;
+}
+
+.av6{
+    position:relative;
+    bottom: 930px;
+    left: 1010px;
+    width: 275px;
+}
+
+
+
+@media only screen and (max-width:602px){
+    body{
+        overflow: hidden; 
+    }
+    
+    header{
+        margin: 7% 0 0 5%;
+    }
+
+    .description {
+        margin-left:5%;
+        margin-top: 22%;
+    }
+    
+    .description h1{
+        font-size: 8rem;
+        line-height:10rem ;
+        
+    }
+    
+    .description p{
+        font-size: 1.9rem;
+        width: 390px;
+        margin: 6% 0 6% 0;
+    }
+    
+    button{
+        padding: 4%;
+        font-size: 1.9rem;
+    }
+    
+    .follow{
+        margin-top: 12%;
+        margin-left: 1%;
+    }
+    
+    .follow p{
+        font-size: 2rem;
+        margin-top: 6%;
+        margin-left: 10px;
+    }
+
+    .av1{
+        bottom:650px;
+        left:45px;
+        width: 110px;
+    }
+    
+    .av2{
+        bottom: 705px;
+        left: 400px;
+        width: 100px;
+    }
+    
+    .av3{
+        bottom: 950px;
+        left:450px;
+        width: 130px;
+    }
+    
+    .av4{
+        bottom:730px;
+        left:415px;
+        width: 120px;
+    }
+
+    .av5{
+        bottom: 980px;
+        left: 505px;
+        width: 90px;
+    }
+    
+    .av6{
+        position:relative;
+        bottom: 780px;
+        left: 350px;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:376px){
+    body{
+        overflow: hidden; 
+    }
+    header{
+        margin: 5% 0 0 10%;
+    }
+
+    .description {
+        margin-left:3%;
+        margin-top: 50%;
+    }
+    
+    .description h1{
+        font-size: 4rem;
+        line-height:5rem ;
+        
+    }
+    
+    .description p{
+        font-size: 1.7rem;
+        width: 290px;
+        margin: 6% 0 6% 0;
+       
+
+    }
+    
+    button{
+        padding: 5%;
+        font-size: 1.8rem;
+    }
+    
+    .follow{
+        margin-top: 65%;
+        margin-left: 2%;
+    }
+    
+    .follow p{
+        font-size: 2rem;
+        margin-top: 5%;
+        margin-left: 10px;
+    }
+   .av1{     
+        bottom:670px;
+        left:30px;
+        width: 110px;
+    }
+    
+    .av2{
+       display: none;
+    }
+    
+    .av3{
+        position: relative;
+        bottom: 800px;
+        left:177px;
+        width: 170px;
+        z-index: -1;
+   }
+    
+    .av4{
+        bottom: 600px;
+        left:130px;
+        width: 220px;
+        z-index: -1;
+        
+    }
+   
+    .av5{
+        display: none;
+
+    }
+    
+    .av6{
+        display: none;
+
+    }
+ 
+}
